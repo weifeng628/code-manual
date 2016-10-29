@@ -3,6 +3,7 @@
 对应sublime代码段中的 路径 `Sublime 3\Data\Packages\mycode\php\php-base2.sublime-completions`
 
 - cla
+
 ```
 //php控制器的基本创建
 <?php
@@ -22,7 +23,9 @@ class NameController extends AdminbaseController{
 
 }
 ```
+
 - mod
+
 ```
 模型的基本创建
 <?php
@@ -89,10 +92,12 @@ class NameModel extends BaseModel{
 }
 ```
 - php
+
 ```
 <?php  ?>
 ```
 - status 
+
 ```
 判断性别取值
 <php>=array('0'=>'待审核,'1'=>'已审核')</php> 
