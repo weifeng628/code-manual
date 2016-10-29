@@ -1,0 +1,12 @@
+{
+     "title" : "常用代码段手册",
+    "description" : "记录sublime代码段命令速查手册",
+    "author" : "zhangwei",
+    "generator": "site",
+    "language" : "zh-hans",
+    "links" : {
+        "sidebar" : {
+            "Home" : "https://github.com/zhangwei699/code-manual"
+        }
+    }
+}
