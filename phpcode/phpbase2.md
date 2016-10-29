@@ -38,6 +38,7 @@ class NameModel extends BaseModel{
 }
 ```
 - model
+
 ```
 模型增删改查的基本创建
 <?php
@@ -91,6 +92,7 @@ class NameModel extends BaseModel{
 
 }
 ```
+
 - php
 
 ```
@@ -99,6 +101,7 @@ class NameModel extends BaseModel{
 - status 
 
 ```
+
 判断性别取值
 <php>=array('0'=>'待审核,'1'=>'已审核')</php> 
 {$status[['status']]}
