@@ -4,7 +4,7 @@
 
 thinkcmf封装了前台模板中一些常用的变量，可以在任何时候调用
 
-```
+```html
 {$site_name}			//站点名称            
 {$site_host}                   //站点域名
 {$site_root}  			//安装目录                
@@ -20,7 +20,7 @@ thinkcmf封装了前台模板中一些常用的变量，可以在任何时候调
 
 ## 模板常量
 
-```
+```html
 __ROOT__   /网站根目录
 __TMPL     /当前模板根目录
 __PUBLIC__ /public 目录 不带/
@@ -31,19 +31,19 @@ __PUBLIC__ /public 目录 不带/
 
 - dtime
 
-```
+```html
 {$vo.createtime|date='Y-m-d',\#\#\#}
 
 ```
 - tc_volist 
 
-```
+```html
 <volist name=\"$1\" id=\"$2\"></volist>
 ```
 
 - tc_if
 
-```
+```html
 <if condition=\"$1\">\n$2$val\n<else />\n$3$val2\n</if>
 ```
 
